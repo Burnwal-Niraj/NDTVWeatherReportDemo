@@ -16,9 +16,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import Utility.Utility;
+import StepDef.Hooks;
 
-public class CommonMethods extends Utility{
+public class CommonMethods extends Hooks{
 	
 	
 	public void clicking(WebElement e)

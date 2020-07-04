@@ -5,11 +5,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import ResuableMethods.CommonMethods;
-import Utility.Utility;
 
 public class NDTVHomePage extends CommonMethods {
 
-	Utility utility = new Utility();
+	
 
 	@FindBy(xpath = "//a[@id='h_sub_menu']")
 	WebElement moreOptions;
@@ -18,7 +17,7 @@ public class NDTVHomePage extends CommonMethods {
 	WebElement weather;
 
 	public void openNDTVUrl(String url) {
-		utility.openBrowser();
+		
 		driver.get(url);
 	}
 

@@ -7,12 +7,11 @@ import Pages.NDTVHomePage;
 import Pages.WeatherMapPage;
 import Pojo.WeatherDataUI;
 import Utility.Comparator;
-import Utility.Utility;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import io.restassured.specification.RequestSpecification;
 
-public class stepDef extends Utility {
+public class stepDef {
 
 	NDTVHomePage ndtvHomePage = new NDTVHomePage();
 	WeatherMapPage weatherMapPage = new WeatherMapPage();
